@@ -3,8 +3,8 @@
 
     $registerUrl = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl';
     $shortCode = '174379'; // Provide the short code obtained from your test credentials
-    $confirmationUrl = 'https://<your-ngrok-subdomain>.ngrok-free.app/confirmation_url.php'; // Replace with a public URL
-    $validationUrl = 'https://<your-ngrok-subdomain>.ngrok-free.app/validation_url.php'; // Replace with a public URL
+    $confirmationUrl = 'https://jerins.vercel.app/mpesa/confirmation.php'; // Replace with a public URL
+    $validationUrl = 'https://jerins.vercel.app/mpesa/validation.php'; // Replace with a public URL
 
     // Initialize cURL
     $curl = curl_init();
