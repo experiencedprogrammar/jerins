@@ -121,7 +121,7 @@ if (isset($data['Body']['stkCallback']['ResultCode']) && $data['Body']['stkCallb
 }
 
 // Log the response
-$logFile = "M_PESAConfirmationResponse.json";
+$logFile = "response.json";
 $log = fopen($logFile, "a");
 fwrite($log, $mpesaResponse);
 fclose($log);
